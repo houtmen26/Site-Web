@@ -1,0 +1,74 @@
+.box{
+    margin-bottom: 2px;
+     position: relative;
+     overflow: auto;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     }
+    
+    .all{
+    margin-bottom: 2px;
+     position: relative;
+     overflow: auto;
+    }
+    
+    .box .box2{
+    
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #CCCCCC;
+    }
+    
+    .box .box3{
+    height:35px;
+    bottom:1px;
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid black;
+    }
+    .box .box3 .titre{
+       bottom: 1px;
+       font-size: 25px;
+       font-family: "metropolis";
+       color:black;
+    }
+    
+    
+    .box .box2 .contenu1{
+       font-size: 18px;
+       font-family: "metropolis";
+       color:black;
+    }
+    
+    img{
+        width: 10%;
+      height: auto;
+    }
+    .box .btn{
+    
+       background:black;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       color: white;
+       display: inline-block;
+       padding: 5px 15px;
+       border-radius: .3rem;
+       font-weight: 700;
+       letter-spacing: .5px;
+       font-size: 15px;
+    }
+    .box .box4{
+    height:35px;
+    bottom:1px;
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+    border-top: 3px solid black;
+    }
+    .box .box4 .titre{
+       bottom: 1px;
+       font-size: 25px;
+       font-family: "metropolis";
+       color:black;
+    }

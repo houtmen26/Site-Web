@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+/*--- Nav Font --*/
+/*--- Start Navigation Style --*/
+.nav-outer {
+    width: 100%;
+    background: #000;
+    position: fixed !important;
+    z-index: 100000000;
+    top: 0;
+    left: 0;
+}
+
+.nav-wrap {
+    background: #000;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    margin-top: 0;
+    background: #000;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+
+.navigation {
+    clear: both;
+    width: 100%;
+    position: relative;
+}
+
+.nav a {
+    color: #F5F5F5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+body .nav .nav-menu li a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 20px;
+    color: #F5F5F5;
+    font-size: 19px;
+}
+
+
+.nav .nav-menu {
+    text-align: center;
+    overflow: visible;
+    min-height: 56px;
+    /* width: 100%; */
+    min-width: 600px;
+    padding-left: 0;
+    /* padding-right: 20%; */
+    margin: 0;
+    margin-top: 15px;
+    display: table;
+}
+
+
+.nav {
+    float: right;
+}
+
+.logo {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.logo img {
+
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 7px;
+}
+
+
+
+.nav .nav-menu li {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+.nav-clear {
+    clear: both;
+    padding-top: 67px;
+}
+
+/* footer*/
+.tout {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    padding-top: 60px;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    padding: 5px;
+    color: #fff;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+.footer .a {
+    margin-top: 0;
+    background: #000;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+
+.box {
+    background-color: rgba(255, 255, 255, 0.7260);
+    margin-bottom: 2px;
+    position: relative;
+    overflow: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.all {
+    margin-bottom: 2px;
+    position: relative;
+    overflow: auto;
+}
+
+.box .box2 {
+
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.box .box3 {
+    height: 35px;
+    bottom: 1px;
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid black;
+}
+
+.box .box3 .titre {
+    bottom: 1px;
+    font-size: 25px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: black;
+}
+
+
+.box .box2 .contenu1 {
+    font-size: 18px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: black;
+}
+
+.box .btn {
+    font-family: 'Hammersmith One', sans-serif;
+    background: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: .3rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+
+.box .btn:hover {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.box .box4 {
+    height: 35px;
+    bottom: 1px;
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+    border-top: 3px solid black;
+}
+
+.box .box4 .titre {
+    bottom: 1px;
+    font-size: 25px;
+    font-family: "metropolis";
+    color: black;
+}

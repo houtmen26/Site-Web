@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION["login"]);
+unset($_SESSION["email"]);
+unset($_SESSION["prenom"]);
+unset($_SESSION["nom"]);
+unset($_SESSION["role"]);
+unset($_SESSION["panier"]);
+header("Location:../index.php");
+?>
